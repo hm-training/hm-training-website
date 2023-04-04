@@ -17,10 +17,6 @@
   gap: calc(200rem / 16);
 }
 
-.testimonial-cards-wrapper {
-  padding: calc(34rem / 16) calc(38rem / 16);
-}
-
 .location-card div {
   color: #FFFFFF;
   background-color: #010B41;
@@ -45,4 +41,11 @@
 .location-card img {
   width: 100%;
   border-radius: 3px 3px 0 0;
+}
+
+.testimonial-card {
+  color: #01082F;
+  background-color: #E5EAFF;
+  padding: calc(50rem / 16) calc(56rem / 16);
+  border-radius: 3px;
 }

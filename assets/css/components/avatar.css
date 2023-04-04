@@ -1,0 +1,26 @@
+.avatar-wrapper {
+  display: flex;
+  align-items: center;
+  gap: calc(15rem / 16);
+}
+
+.avatar-wrapper p {
+  margin: 0;
+  color: #00349A;
+  font-size: calc(18rem / 16);
+  font-weight: 900;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #00349A;
+}
+
+.avatar p {
+  color: #F7F9FF;
+}
