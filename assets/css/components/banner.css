@@ -9,6 +9,7 @@
 
 .banner-text p {
   color: #00349A;
+  margin-top: calc(60rem /16);
 }
 
 .banner p {

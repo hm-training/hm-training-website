@@ -87,7 +87,7 @@ img {
 /* Containers */
 
 .container {
-  padding: calc(60rem / 16);
+  padding: calc(60rem / 16) calc(60rem / 16) 0 calc(60rem / 16);
 }
 
 .container-md {
@@ -100,6 +100,10 @@ img {
 
 .margin-top {
   margin-top: calc(150rem / 16);
+}
+
+.margin-top-sm {
+  margin-top: calc(60rem / 16);
 }
 
 /* Pages */
