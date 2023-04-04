@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: calc(20rem / 16);
+}
+
+nav a {
+  color: #01082F;
+  font-size: calc(18rem / 16);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #00349A;
+}
+
+.active {
+  color: #00349A;
+}

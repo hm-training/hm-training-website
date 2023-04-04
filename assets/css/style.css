@@ -10,7 +10,12 @@
 /* --------------------------------- */
 
 /* COMPONENTS */
-@import url('components/component.css');
+@import url('components/header.css');
+@import url('components/menu.css');
+@import url('components/banner.css');
+@import url('components/grid.css');
+@import url('components/info-card.css');
+@import url('components/section.css');
 
 /* --------------------------------- */
 
@@ -18,11 +23,10 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #FAFAFA;
-  color: #363636;
+  background-color: #F7F9FF;
+  color: #01082F;
   margin: 0;
   font-size: 1.4rem;
-  padding-top: 140px;
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -39,31 +43,64 @@ h1, h2, h3 {
 h1 {
   font-size: 3.6rem;
   font-weight: 600;
+  color: #00349A;
   margin-bottom: 4rem;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: calc(48rem / 16);
+  font-weight: 900;
+  line-height: 1.5;
   margin-top: 0;
-  font-weight: 500;
+  margin-bottom: 0;
 }
 
 h3 {
-  margin-top: 60px;
+  font-size: calc(28rem / 16);
+  font-weight: 900;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: calc(42rem / 16);
 }
 
 p {
-  line-height: 2rem;
+  line-height: 1.8;
+  font-size: calc(16rem / 16);
+  margin-top: 0;
+  margin-bottom: calc(30rem / 16);
 }
 
 a {
   font-family: 'Arial', sans-serif;
 }
 
+img {
+  width: 100px;
+}
+
 /* --------------------------------- */
 
 /* CUSTOM DESIGN */
+
+/* Containers */
+
+.container {
+  padding: calc(60rem / 16);
+}
+
+.container-md {
+  padding: 0 calc((110rem + 60rem) / 16);
+}
+
+.container-sm {
+  padding: 0 calc((100rem + 110rem + 60rem) / 16);
+}
+
+.margin-top {
+  margin-top: calc(150rem / 16);
+}
+
 /* Pages */
 
 /* --------------------------------- */

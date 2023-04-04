@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: calc(30rem / 16);
+}
+
+.logo-wrapper h1 {
+  font-size: calc(32rem / 16);
+  font-weight: 500;
+  margin: 0;
+}
+
+.logo-wrapper h1 span {
+  font-weight: 900;
+}
+
+#logo img {
+  width: 70px;
+}
+

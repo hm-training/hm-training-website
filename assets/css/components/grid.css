@@ -1,0 +1,27 @@
+.text-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-card-wrapper img {
+  width: 100%;
+}
+
+.text-card {
+  background-color: #00349A;
+  padding: 0 calc(100rem / 16);
+  color: #E5EAFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-card p:last-child {
+  margin-bottom: 0;
+}
+
+.text-card.no-background {
+  background-color: inherit;
+  color: inherit;
+  padding: calc(80rem / 16) calc(110rem / 16);
+}

@@ -1,0 +1,24 @@
+.banner {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.banner-text {
+  padding-right: calc(240rem/ 16);
+}
+
+.banner-text p {
+  color: #00349A;
+}
+
+.banner p {
+  font-size: calc(24rem / 16);
+}
+
+.banner h2 {
+
+}
+
+.banner img {
+  width: 100%;
+}

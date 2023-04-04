@@ -1,0 +1,12 @@
+.info-card {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #00349A;
+  border-radius: 3px;
+  margin: 0 calc(100rem / 16);
+}
+
+.info-card p {
+  margin: calc(58rem / 16) 0;
+  font-weight: 900;
+}
