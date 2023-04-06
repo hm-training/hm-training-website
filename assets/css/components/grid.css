@@ -25,3 +25,19 @@
   color: inherit;
   padding: calc(80rem / 16) calc(110rem / 16);
 }
+
+.border-radius-tl > img {
+  border-radius: 3px 0 0 0;
+}
+
+.border-radius-tl > div {
+  border-radius: 0 3px 0 0;
+}
+
+.border-radius-br > img {
+  border-radius: 0 0 3px 0;
+}
+
+.border-radius-br > div {
+  border-radius: 0 0 0 3px;
+}
