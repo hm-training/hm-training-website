@@ -1,25 +1,20 @@
-.banner {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
 .banner-text {
-  padding-right: calc(240rem/ 16);
+  margin-top: calc(200rem/ 16);
+  padding-right: calc(80rem/ 16);
+
 }
 
 .banner-text p {
   color: #00349A;
   margin-top: calc(60rem /16);
-}
-
-.banner p {
   font-size: calc(24rem / 16);
 }
 
-.banner h2 {
-
+.banner-text h2 {
+  margin-bottom: calc(60rem /16);
 }
 
-.banner img {
-  width: 100%;
+.banner-text i {
+  color: #01082F;
+  font-size: calc(42rem / 16);
 }

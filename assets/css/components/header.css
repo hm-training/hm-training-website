@@ -1,25 +1,19 @@
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.logo-wrapper {
-  display: flex;
-  align-items: center;
-  gap: calc(16rem / 16);
+.header-logo {
+  position: relative;
 }
 
-.logo-wrapper h1 {
-  font-size: calc(32rem / 16);
-  font-weight: 500;
-  margin: 0;
+#background-image {
+  width: 100%;
 }
 
-.logo-wrapper h1 span {
-  font-weight: 900;
+#logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
 }
-
-#logo img {
-  width: 90px;
-}
-
