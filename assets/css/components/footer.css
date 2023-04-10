@@ -26,19 +26,29 @@ footer h3 {
   margin: 0;
 }
 
-.instagram-info {
+.contact-info-wrapper a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.instagram-button {
   display: flex;
   align-items: center;
   gap: calc(16rem / 16);
 }
 
-.instagram-info i {
+.instagram-button i {
   font-size: calc(42rem / 16);
 }
 
-.instagram-info p {
+.instagram-button p {
   margin: 0;
   font-size: calc(24rem / 16);
+}
+
+.instagram-button:hover {
+  color: #7BA3F3;
+  border-radius: 3px;
 }
 
 .footer-logos {
