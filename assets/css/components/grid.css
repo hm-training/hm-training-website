@@ -26,6 +26,10 @@
   padding: calc(80rem / 16) calc(110rem / 16);
 }
 
+.no-padding-bottom {
+  padding-bottom: 0;
+}
+
 .border-radius-tl > img {
   border-radius: 3px 0 0 0;
 }
