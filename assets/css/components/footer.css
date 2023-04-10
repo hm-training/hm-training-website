@@ -1,0 +1,73 @@
+footer {
+  color: #FFFFFF;
+  background-color: #010B41;
+  padding-top: calc(75rem / 16)
+}
+
+footer h3 {
+  margin-bottom: calc(30rem / 16);
+}
+
+.footer {
+  margin-bottom: calc(75rem / 16);
+}
+
+.contact-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.contact-info p {
+  margin: 0 0 calc(16rem / 16) 0;
+}
+
+.contact-info p:last-child {
+  margin: 0;
+}
+
+.instagram-info {
+  display: flex;
+  align-items: center;
+  gap: calc(16rem / 16);
+}
+
+.instagram-info i {
+  font-size: calc(42rem / 16);
+}
+
+.instagram-info p {
+  margin: 0;
+  font-size: calc(24rem / 16);
+}
+
+.footer-logos {
+  color: #01082F;
+  background-color: #FFFFFF;
+  padding-top: calc(50rem / 16);
+}
+
+.logos-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(42rem / 16);
+  margin-bottom: calc(32rem / 16);
+}
+
+.credit {
+  text-align: center;
+  font-size: calc(14rem / 16);
+  color: #545A75;
+  margin: 0;
+  padding-bottom: calc(50rem / 16);
+}
+
+.company-name {
+  font-size: calc(26rem / 16);
+  margin: calc(60rem / 16) 0 calc(30rem / 16) 0;
+}
+
+.company-name span {
+  font-weight: 900;
+}
