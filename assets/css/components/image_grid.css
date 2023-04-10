@@ -1,0 +1,55 @@
+.instagram-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(150rem / 16);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  z-index: -1;
+}
+
+.image-grid img {
+  width: 100%;
+}
+
+.instagram-banner a {
+  text-decoration: none;
+  display: block;
+  inline-size: fit-content;
+}
+
+.button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: calc(16rem / 16);
+  color: #E5EAFF;
+  background-color: #00349A;
+  font-size: calc(20rem / 16);
+  font-weight: 900;
+  padding: calc(16rem / 16) calc(24rem / 16);
+  margin-top: calc(26rem / 16);
+  border-radius: 3px;
+  transition: background-color 1s ease;
+}
+
+.button:hover {
+  background-color: #000A3D;
+  border-radius: 3px;
+}
+
+.button i {
+  font-size: calc(28rem / 16);
+}
+
+.button p {
+  margin: 0;
+}
