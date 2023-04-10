@@ -17,4 +17,9 @@
 .banner-text i {
   color: #01082F;
   font-size: calc(42rem / 16);
+  transition: color 0.5s ease-out;
+}
+
+.banner-text i:hover {
+  color: #00349A;
 }

@@ -24,6 +24,10 @@
 
 /* UTILITIES */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #F7F9FF;
