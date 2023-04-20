@@ -108,8 +108,26 @@ img {
   margin-top: calc(150rem / 16);
 }
 
+.margin-top-md {
+  margin-top: calc(70rem / 16);
+}
+
 .margin-top-sm {
   margin-top: calc(60rem / 16);
+}
+
+/* Box shadows */
+
+.box-shadow-xl {
+  box-shadow: 0 3px 12px 0 rgba(202, 204, 215, 1);
+}
+
+.box-shadow-md {
+  box-shadow: 0 1px 12px 0 rgba(202, 204, 215, 0.25);
+}
+
+.box-shadow-light {
+  box-shadow: 0 1px 12px 0 rgba(229, 234, 255, 0.25);
 }
 
 /* Callout */

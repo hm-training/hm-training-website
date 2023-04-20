@@ -7,19 +7,12 @@ header > .container {
   background-color: #E5EAFF;
 }
 
-.slideshow > img {
-  width: 400px;
+.header-background > img {
+  width: 550px;
 }
 
-.slideshow {
-  --bg1: url(../../images/image-1.png);
-  --bg2: url(../../images/image-2.png);
-  --bg3: url(../../images/image-3.png);
-
-  --current-bg: var(--bg1);
-  --numberOfImages: 3;
-  --duration: 30s;
-  --fadeDuration: calc(var(--duration) / var(--numberOfImages));
+.header-background {
+  --current-bg: url(../../images/background-full.png);
 
   background-image: var(--current-bg);
   background-size: cover;
@@ -27,32 +20,4 @@ header > .container {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  animation: changeImage var(--duration) linear infinite, fade var(--fadeDuration) linear infinite;
-}
-
-@keyframes changeImage {
-  0% {
-    --current-bg: var(--bg1);
-  }
-  33.33% {
-    --current-bg: var(--bg2);
-  }
-  66.66% {
-    --current-bg: var(--bg3);
-  }
-  100% {
-    --current-bg: var(--bg1);
-  }
-}
-
-@keyframes fade {
-  25% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 1;
-  }
 }
