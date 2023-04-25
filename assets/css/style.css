@@ -149,6 +149,73 @@ img {
 }
 
 @media (max-width: 960px) {
+  p {
+    font-size: calc(24rem / 16);
+  }
+
+  .location-cards-wrapper, .testimonial-cards-wrapper {
+    grid-template-columns: 1fr;
+    gap: calc(80rem / 16);
+  }
+
+  .text-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .text-card {
+    padding: calc(80rem / 16) calc(110rem / 16);
+  }
+
+  .text-card-wrapper:last-child .text-card:last-child {
+    padding-top: 0;
+  }
+
+  .location-card {
+    height: fit-content;
+  }
+
+  .location-card div {
+    height: 100%;
+  }
+
+  .location-card div p {
+    font-size: calc(22rem /16);
+    line-height: 1.4;
+  }
+
+  .info-card {
+    justify-content: center;
+    padding: calc(40rem / 16) calc(60rem / 16);
+    margin-top: 0;
+  }
+
+  .container-sm {
+    padding: 0 calc(110rem / 16);
+  }
+
+  .container-md {
+    padding: 0 calc(110rem / 16);
+  }
+
+  .banner-text a {
+    display: none;
+  }
+
+  .image-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .button p {
+    font-size: calc(24rem / 16);
+  }
+
+  h3, .company-name {
+    font-size: calc(32rem / 16);
+  }
+
+  .section h3 {
+    font-size: calc(46rem / 16);
+  }
 }
 
 @media (max-width: 720px) {
