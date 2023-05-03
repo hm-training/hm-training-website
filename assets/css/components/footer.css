@@ -4,26 +4,25 @@ footer {
   padding-top: calc(75rem / 16)
 }
 
-footer h3 {
+contact h3 {
   margin-bottom: calc(30rem / 16);
 }
 
-.footer {
-  margin-bottom: calc(75rem / 16);
+.contact {
+  text-align: center;
+  margin-bottom: calc(100rem / 16);
+}
+
+.contact h3 {
+  text-align: center;
+  font-size: calc(46rem / 16);
+  margin-bottom: calc(40rem / 16);
 }
 
 .contact-info-wrapper {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-}
-
-.contact-info p {
-  margin: 0 0 calc(16rem / 16) 0;
-}
-
-.contact-info p:last-child {
-  margin: 0;
+  justify-content: center;
+  gap: calc(100rem / 16);
 }
 
 .contact-info-wrapper a {
@@ -31,7 +30,7 @@ footer h3 {
   color: #FFFFFF;
 }
 
-.instagram-button {
+.contact-info, .instagram-button {
   display: flex;
   align-items: center;
   gap: calc(16rem / 16);
@@ -41,7 +40,11 @@ footer h3 {
   font-size: calc(42rem / 16);
 }
 
-.instagram-button p {
+.contact-info i {
+  font-size: calc(36rem / 16);
+}
+
+.contact-info-text {
   margin: 0;
   font-size: calc(24rem / 16);
 }
@@ -67,17 +70,8 @@ footer h3 {
 
 .credit {
   text-align: center;
-  font-size: calc(14rem / 16);
+  font-size: calc(16rem / 16);
   color: #545A75;
   margin: 0;
-  padding-bottom: calc(50rem / 16);
-}
-
-.company-name {
-  font-size: calc(26rem / 16);
-  margin: calc(60rem / 16) 0 calc(30rem / 16) 0;
-}
-
-.company-name span {
-  font-weight: 900;
+  padding: calc(30rem / 16) 0 calc(50rem / 16) 0;
 }

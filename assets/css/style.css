@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-  font-size: calc(28rem / 16);
+  font-size: calc(36rem / 16);
   font-weight: 900;
   line-height: 1.8;
   margin-top: 0;
@@ -73,7 +73,7 @@ h3 {
 
 p {
   line-height: 1.8;
-  font-size: calc(16rem / 16);
+  font-size: calc(18rem / 16);
   margin-top: 0;
   margin-bottom: calc(30rem / 16);
 }
@@ -106,10 +106,6 @@ img {
 
 .margin-top {
   margin-top: calc(150rem / 16);
-}
-
-.margin-top-md {
-  margin-top: calc(70rem / 16);
 }
 
 .margin-top-sm {
@@ -180,13 +176,25 @@ img {
 
   .location-card div p {
     font-size: calc(22rem /16);
-    line-height: 1.4;
   }
 
   .info-card {
     justify-content: center;
     padding: calc(40rem / 16) calc(60rem / 16);
     margin-top: 0;
+    height: auto;
+  }
+
+  .info-card p {
+    font-size: calc(24rem / 16);
+  }
+
+  .info-card i {
+    font-size: calc(28rem / 16);
+  }
+
+  .location-card .location-title {
+    font-size: calc(32rem / 16);
   }
 
   .container-sm {
@@ -209,12 +217,47 @@ img {
     font-size: calc(24rem / 16);
   }
 
-  h3, .company-name {
+  h3 {
     font-size: calc(32rem / 16);
   }
 
   .section h3 {
     font-size: calc(46rem / 16);
+  }
+
+  .text-card h3 {
+    font-size: calc(38rem / 16);
+  }
+
+  .callout {
+    padding: 0 calc(40rem / 16);
+  }
+
+  .outro {
+    grid-template-columns: 1fr;
+    gap: calc(80rem / 16);
+  }
+
+  .contact-info-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: calc(30rem / 16);
+  }
+
+  .border-radius-tl > img {
+    border-radius: 3px 3px 0 0;
+  }
+
+  .border-radius-tl > div {
+    border-radius: 0;
+  }
+
+  .border-radius-br > img {
+    border-radius: 0 0 3px 3px;
+  }
+
+  .border-radius-br > div {
+    border-radius: 0;
   }
 }
 

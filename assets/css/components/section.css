@@ -1,7 +1,7 @@
 .section h3 {
   text-align: center;
   margin-bottom: calc(90rem / 16);
-  font-size: calc(36rem / 16);
+  font-size: calc(46rem / 16);
 }
 
 .section-subtitle {
@@ -30,13 +30,13 @@
 
 .location-card div p {
   margin: 0;
-  line-height: 1.2;
+  line-height: 1.4;
 }
 
 .location-card .location-title  {
   font-weight: 900;
-  font-size: calc(24rem / 16);
-  margin-bottom: calc(16rem / 16);
+  font-size: calc(28rem / 16);
+  margin-bottom: calc(22rem / 16);
 }
 
 .location-card img {
