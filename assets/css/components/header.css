@@ -1,24 +1,14 @@
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: relative;
+  z-index: 10;
 }
 
-header > .container {
-  background-color: #E5EAFF;
+header.container {
+  padding: calc(28rem / 16) calc(60rem / 16);
 }
 
-.header-background > img {
-  width: 550px;
-}
-
-.header-background {
-  --current-bg: url(../../images/background-full.png);
-
-  background-image: var(--current-bg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.logo img {
+  width: 70px;
 }
