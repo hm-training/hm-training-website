@@ -1,16 +1,12 @@
 footer {
   color: #FFFFFF;
   background-color: #010B41;
-  padding-top: calc(75rem / 16)
-}
-
-contact h3 {
-  margin-bottom: calc(30rem / 16);
+  padding-top: calc(120rem / 16)
 }
 
 .contact {
   text-align: center;
-  margin-bottom: calc(100rem / 16);
+  margin-bottom: calc(140rem / 16);
 }
 
 .contact h3 {

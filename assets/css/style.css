@@ -131,7 +131,6 @@ img {
 .callout {
   color: #00349A;
   text-align: center;
-  font-style: italic;
   font-size: calc(36rem / 16);
   padding: 0 calc(100rem / 16);
   margin-top: calc(150rem / 16);
