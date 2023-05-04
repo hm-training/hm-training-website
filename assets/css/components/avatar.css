@@ -7,20 +7,13 @@
 .avatar-wrapper p {
   margin: 0;
   color: #00349A;
-  font-size: calc(18rem / 16);
+  font-size: calc(22rem / 16);
   font-weight: 900;
 }
 
-.avatar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 50px;
-  height: 50px;
+.avatar-wrapper img {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
-  background-color: #00349A;
-}
-
-.avatar p {
-  color: #F7F9FF;
+  object-fit: cover;
 }
